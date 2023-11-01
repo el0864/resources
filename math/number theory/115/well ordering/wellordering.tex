@@ -1,0 +1,18 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsfonts} 
+
+\begin{document}
+    \section*{Well Ordering Principle}
+    Every non-empty subset $S \subseteq \mathbb{N} \cup \{0\}$ contains a least element \newline
+    $\forall_{S \subseteq \mathbb{N} \cup \{0\}, \ |S| \neq  0} \ \exists_{x \in S} \ \forall_{y \in S,\ y\neq x} \ x < y$\newline 
+    From my understanding this is only considering to the infinite $\mathbb{N}\cup\{0\}$ set in terms of special sets 
+    (i.e. $\mathbb{N}, \ \mathbb{Z}, \ \ldots$). In terms of non-empty finite sets (i.e. $\{-1, 0, 1\}$) and infinite sets like
+    $A = \{-1,0,1, \ldots\}$, there  always exist a least element. To show why this works, let 
+   $\mathbb{N} \cup \{0\} = \{0, 1, 2, \ldots\}$ and let $S$ represent all the special sets except $\mathbb{N}$.
+    We can clearly define the least number within set $\mathbb{N} \cup \{0\}$ as $0$ as opposed to $S$ where they 
+    contain infinite negative numbers. Since we know that there exist a least element in $\mathbb{N} \cup \{0\}$
+    then any non-empty subset of $\mathbb{N} \cup \{0\}$ will contain a least element as 
+    it cannot contain any element $ < 0$. In other words, there won't be an infinite amount of least numbers,
+    thus there will be a least element in the set (if that makes more sense).
+\end{document}
